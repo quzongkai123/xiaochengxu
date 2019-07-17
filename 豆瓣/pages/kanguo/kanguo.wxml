@@ -1,0 +1,22 @@
+<!--pages/kanguo/kanguo.wxml-->
+<view class='pingfen'>
+<text>点击星星评分</text>
+</view>
+<view class='xingxing'>
+<van-rate
+  value="{{ value }}"
+  size="{{ 25 }}"
+  color="orange"
+  void-color="#eee"
+  void-icon="star"
+  bind:change="onChange"
+/>
+
+</view>
+<view class='textborder'>
+<text>写几句评价吧...</text>
+</view>
+<view class='anniu' bindtap='bindqueding'>
+<button>确定</button>
+
+</view>

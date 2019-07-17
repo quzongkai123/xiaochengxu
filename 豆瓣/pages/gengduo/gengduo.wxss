@@ -1,0 +1,30 @@
+.uploadWrap {
+  float: left;
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  height:200rpx;
+}
+.upload_Item {
+  float: left;
+  width: 250rpx;
+  height: 330rpx;
+  line-height: 40rpx;
+  text-align: center;
+}
+.upload_Item_img {
+  float: left;
+  width: 170rpx;
+  height: 250rpx;
+  margin: 0 0 0 45rpx;
+  border-radius: 10rpx;
+}
+.upload_Item text {
+  display: inline-block;
+  white-space:nowrap;
+  overflow:hidden;
+  text-overflow:ellipsis;
+  width: 160rpx;
+  font-size: 26rpx; 
+  text-align: left;
+}

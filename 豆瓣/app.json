@@ -1,0 +1,54 @@
+{
+  "pages": [
+   
+    "pages/demo/demo",
+    "pages/index/index",
+    "pages/logs/logs",
+    "pages/gengduo/gengduo",
+    "pages/denglu/denglu",
+    "pages/top250/top250",
+    "pages/bangdan/bangdan",
+    "pages/kanguo/kanguo",
+    "pages/xiangkan/xiangkan",
+    "pages/jiushu2/jiushu2",
+    "pages/jiushu/jiushu",
+    "pages/wode/wode"
+   
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#67ba62",
+    "navigationBarTextStyle": "white"
+  },
+  "tabBar": {
+    "color": "#000",
+    "selectedColor": "#E54847",
+    "list": [
+      {
+        "pagePath": "pages/demo/demo",
+        "text": "首页",
+        "iconPath": "image/film.png",
+        "selectedIconPath": "image/film1.png"
+      },
+      {
+        "pagePath": "pages/bangdan/bangdan",
+        "text": "榜单",
+        "iconPath": "image/film4.png",
+        "selectedIconPath": "image/film2.png"
+      },
+      {
+        "pagePath": "pages/wode/wode",
+        "text": "我的",
+        "iconPath": "image/wode.png",
+        "selectedIconPath": "image/film3.png"
+      }
+    ]
+  },
+  "usingComponents": {
+    "van-rate": "/utils/dist/rate/index",
+    "van-row": "/utils/dist/row/index",
+    "van-col": "/utils/dist/col/index",
+    "van-icon": "/utils/dist/icon/index"
+  },
+  "sitemapLocation": "sitemap.json"
+}

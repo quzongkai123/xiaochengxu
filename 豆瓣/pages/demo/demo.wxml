@@ -1,0 +1,51 @@
+<view class='search'>
+<input type='text' placeholder='搜索'></input>
+</view>
+<!-- 影院热映 -->
+<view class="Cinema">
+    <text>影院热映</text>
+    <text bindtap='bindLogs'>查看更多 ></text>
+</view>
+<scroll-view scroll-x="true">
+  <view class="uploadWrap" scroll-x="true">
+    <view class="upload_Item" wx:for="{{subjects}}">
+      <!-- navigator：页面跳转链接 -->
+      <navigator url='../index/index' hover-class="none">
+        <image class="upload_Item_img" src="{{item.images.large}}"></image>
+        <text>{{item.title}}</text>
+      </navigator>
+    </view>
+  </view>
+</scroll-view>
+<!-- 影院热门 -->
+<view class="Cinema">
+    <text>影院热门</text>
+    <text bindtap="bindLogs">查看更多 ></text>
+</view>
+<scroll-view scroll-x="true">
+  <view class="uploadWrap" scroll-x="true">
+    <view class="upload_Item" wx:for="{{subjects_top250}}">
+      <!-- navigator：页面跳转链接 -->
+      <navigator url='../index/index' hover-class="none">
+        <image class="upload_Item_img" src="{{item.images.large}}"></image>
+        <text>{{item.title}}</text>
+      </navigator>
+    </view>
+  </view>
+</scroll-view>
+<!-- 即将上映 -->
+<view class="Cinema">
+    <text>即将上映</text>
+    <text bindtap='bindLogs'>查看更多 ></text>
+</view>
+<scroll-view scroll-x="true">
+  <view class="uploadWrap" scroll-x="true">
+    <view class="upload_Item" wx:for="{{subjects_coming_soon}}">
+      <!-- navigator：页面跳转链接 -->
+      <navigator url='../index/index' hover-class="none">
+        <image class="upload_Item_img" src="{{item.images.large}}"></image>
+        <text>{{item.title}}</text>
+      </navigator>
+    </view>
+  </view>
+</scroll-view>

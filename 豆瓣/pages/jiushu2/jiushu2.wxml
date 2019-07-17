@@ -1,0 +1,124 @@
+<view class='douban1'>
+<text>豆瓣评分</text>
+<text>TM</text>
+<text>></text>
+</view>
+<view class='xial'>
+<text>9.6</text>
+ <van-rate
+   value="{{ value }}"
+  size="{{ 10 }}"
+  color="#f44"
+  void-color="orange"
+  void-icon="star"
+  bind:change="onChange"
+/>
+</view>
+<view class='xiar'>
+<van-rate
+   value="{{ value }}"
+  size="{{ 8 }}"
+  color="#f44"
+  void-color="gray"
+  void-icon="star"
+  count="{{ 5 }}"
+  bind:change="onChange"
+/>
+<van-rate
+   value="{{ value }}"
+  size="{{ 8 }}"
+  color="#f44"
+  void-color="gray"
+  void-icon="star"
+  bind:change="onChange"
+  count="{{ 4 }}"
+/>
+<van-rate
+   value="{{ value }}"
+  size="{{ 8 }}"
+  color="#f44"
+  void-color="gray"
+  void-icon="star"
+  bind:change="onChange"
+  count="{{ 3 }}"
+/>
+<van-rate
+   value="{{ value }}"
+  size="{{ 8 }}"
+  color="#f44"
+  void-color="gray"
+  void-icon="star"
+  bind:change="onChange"
+  count="{{ 2 }}"
+/>
+<van-rate
+   value="{{ value }}"
+  size="{{ 8 }}"
+  color="#f44"
+  void-color="gray"
+  void-icon="star"
+  bind:change="onChange"
+  count="{{ 1 }}"
+/>
+</view>
+<view class='jindu'>
+<view class='a1'>
+<view class='a11'>
+</view>
+</view>
+<view class='a2'>
+<view class='a22'>
+</view>
+</view>
+<view class='a3'>
+<view class='a33'>
+</view>
+</view>
+<view class='a4'>
+</view>
+<view class='a5'>
+</view>
+<view class='fen'>
+<text>1468346评分</text>
+</view>
+</view>
+<view class='ll'>
+<view class='fen1'><text>84.4%</text></view>
+<view class='fen1'><text>13.9%</text></view>
+<view class='fen1'><text>1.5%</text></view>
+<view class='fen1'><text>0.1%</text></view>
+<view class='fen1'><text>0.1%</text></view>
+</view>
+<view class='haoyu1'>
+<text>好于99%的剧情片</text>
+</view>
+<view class='haoyu2'>
+<text>好于99%的犯罪片</text>
+</view>
+<view class='xian'></view>
+<view class="dp"  data-newsid="{{subjects_dp.comments[0].subject_id}}">
+    <view class="dp_t">
+      <view class="dp_t1">短评</view>
+      <view class="dp_t2">看过
+        <van-icon name="arrow-down" />
+      </view>
+    </view>
+    <view class="dp_b" wx:for="{{subjects_dp.comments}}" wx:if="{{index<4}}">
+      <view class="dp_bt">
+        <image src="{{item.author.avatar}}"></image>
+        <view class="dp_btr">
+          <view class="dp_btrz">{{item.author.name}}</view>
+          <van-rate readonly value="{{ item.rating.value }}" size="10" allow-half bind:change="onChange" />
+          <text>{{item.created_at}}</text>
+        </view>
+      </view>
+      <view class="dp_bc">
+        {{item.content}}
+      </view>
+      <view class="dp_bb">
+        <image src="../../images/zan.png"></image>
+        <text>{{item.useful_count}}</text>
+      </view>
+    </view>
+  </view>
+

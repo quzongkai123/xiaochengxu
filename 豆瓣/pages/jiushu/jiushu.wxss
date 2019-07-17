@@ -1,0 +1,445 @@
+/* pages/jiushu/jiushu.wxss */
+.header{
+
+height:350rpx;
+width:100%;
+
+}
+.header image{
+
+  margin-top:30rpx;
+  margin-left: 20rpx;
+  float:left;
+  width: 200rpx;
+  height:280rpx;
+}
+.title1{
+
+  margin-left:35%;
+}
+.title1 text{
+  font-weight: bold;
+}
+.title2{
+
+  margin-left:34%;
+}
+.title2 text{
+  font-size: 26rpx;
+  color:rgb(148, 149, 150);
+}
+.title3{
+
+  margin-left:34%;
+}
+.title3 text{
+  font-size: 26rpx;
+  color:rgb(148, 149, 150)；
+
+}
+.aa button{
+  float: left;
+  color: orange;
+  font-size: 30rpx;
+  width: 230rpx;
+  margin-left: 15rpx;
+  margin-top:40rpx;
+  }
+  .aa text{
+    color:black;
+    
+}
+.aa text{
+  color:black;
+}
+.pingfen{
+  margin-top:50rpx;
+  float: left;
+  margin-left: 30rpx;
+  width:92%;
+  height:100%;
+  
+  }
+  .douban1{
+    float: left;
+  
+    height:60rpx;
+    width: 100%;
+  }
+  .douban1 text{
+    font-weight: bold;
+ 
+  }
+  
+  .douban1 text:nth-child(1){
+    margin-top:30rpx;
+    float: left;
+    font-size: 25rpx;
+    padding-left:20rpx;
+  
+  }
+  .douban1 text:nth-child(2){
+    
+    font-size: 20rpx;
+    margin-left:20rpx;
+  }
+    .douban1 text:nth-child(3){
+    float: right;
+    margin-right:20rpx;
+    color:rgb(148, 149, 150);
+  }
+ .xial{
+   text-align: center;
+   height:120rpx;
+   width:25%;
+   margin-left:10%;
+   float: left;
+ 
+ }
+ .xial text{
+   font-weight: bold;
+ }
+ .xiar{
+   height: 120rpx;
+
+   float: left;
+   text-align: right;
+   margin-left: 30rpx;
+   
+ }
+  .van-rate{
+    height: 16rpx;
+  }
+  .jindu{
+    margin-top:20rpx;
+ 
+    float: left;
+    height: 100rpx;
+    width:40%;
+    margin-left: 10rpx;
+  }
+ .a1{
+ 
+   height:10rpx;
+   background-color:rgb(184, 177, 177);
+   width: 200rpx;
+ }
+ .a11{
+   height: 100%;
+   width: 80%;
+   background-color: orange;
+ }
+  .a2{
+ 
+   height:10rpx;
+   background-color:rgb(184, 177, 177);
+   width: 200rpx;
+ }
+ .a22{
+   margin-top:6rpx;
+   height: 100%;
+   width: 20%;
+   background-color: orange;
+ }
+ .a3{
+   margin-top:6rpx;
+   height:10rpx;
+   background-color:rgb(184, 177, 177);
+   width: 200rpx;
+ }
+ .a33{
+   margin-top:6rpx;
+   height: 100%;
+   width: 3%;
+   background-color: orange;
+ }
+ .a4{
+   margin-top:6rpx;
+   height:10rpx;
+   background-color:rgb(184, 177, 177);
+   width: 200rpx;
+ }
+ .a5{
+   margin-top:6rpx;
+   height:10rpx;
+   background-color:rgb(184, 177, 177);
+   width: 200rpx;
+ }
+ .fen text{
+   font-size: 10rpx;
+   color: rgb(187, 175, 175);
+   float: right;
+   margin-right: 90rpx;
+ }
+/* 
+ 简介 */
+.jianjie{
+  margin-top: 80rpx;
+}
+.jianjie_1{
+  font-weight: 700;
+  font-size: 34rpx;
+}
+.jianjie_2{
+  margin-top: 30rpx;
+  font-size: 30rpx;
+}
+.jianjie_3{
+  float: right;
+  font-size: 30rpx;
+  color: #818181;
+}
+.jianjie_4{
+  margin-top: 30rpx;
+  font-size: 30rpx;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 4;
+  overflow: hidden;
+}
+
+.yingren{
+  margin-top: 80rpx;
+}
+.yingren_1{
+  font-weight: 700;
+  font-size: 34rpx;
+}
+.uploadWrap {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  height: 340rpx;
+}
+.upload_Item {
+  width: 100%;
+  height: 340rpx;
+  line-height: 40rpx;
+  text-align: center;
+}
+.upload_Item_img {
+  width: 170rpx;
+  height: 250rpx;
+  margin: 0 0 0 10rpx;
+  border-radius: 10rpx;
+}
+.upload_Item text {
+  display: inline-block;
+  white-space:nowrap;
+  overflow:hidden;
+  text-overflow:ellipsis;
+  width: 160rpx;
+  font-size: 26rpx; 
+  text-align: left;
+}
+.yy{
+  color: #818181;
+  font-size: 26rpx;
+}
+
+/* 预告片、剧照 */
+.ygp{
+  margin-top: 80rpx;
+}
+.ygp_t{
+  display: flex;
+  justify-content: space-between;
+}
+.ygp_t text:nth-child(1){
+  font-weight: 700;
+  font-size: 34rpx;
+}
+.ygp_t text:nth-child(2){
+  font-size: 30rpx;
+  color: #818181;
+}
+.upload_Item_video{
+  width: 500rpx;
+  height: 300rpx; 
+  margin: 0 0 0 20rpx;
+  border-radius: 10rpx;
+}
+.upload_Item_img1 {
+  width: 220rpx;
+  height: 300rpx;
+  margin: 0 0 0 3rpx;
+  border-radius: 10rpx;
+}
+
+
+/* 短评 */
+.dp{
+  margin-top: 80rpx;
+  background: #fff;
+  border-radius: 10rpx;
+  padding: 30rpx 20rpx;
+}
+.dp_t{
+  display: flex;
+  justify-content: space-between;
+}
+.dp_t1{
+  font-weight: 700;
+  font-size: 34rpx;
+}
+.dp_t2{
+  font-size: 30rpx;
+  color: #818181;
+}
+.dp_t2 van-icon{
+  font-size: 24rpx;
+}
+.dp_b{
+  margin-top: 30rpx;
+  border-bottom: 1px solid #f2f2f2;
+  padding-bottom: 30rpx;
+}
+.dp_bt{
+  display: flex;
+}
+.dp_bt image{
+  width: 70rpx;
+  height: 70rpx;
+  border-radius: 50%;
+}
+.dp_btr{
+  padding-left: 10rpx;
+}
+.dp_btrz{
+  font-weight: 700;
+}
+.dp_btr .van-rate{
+  display: inline-block;
+}
+.dp_btr text{
+  font-size: 26rpx;
+  color: #c0c0c0;
+  margin-left: 10rpx;
+}
+.dp_bc{
+  margin-top: 20rpx;
+  font-size: 32rpx;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 6;
+  overflow: hidden;
+}
+.dp_bb{
+  color: #828282;
+  margin-top: 20rpx;
+}
+.dp_bb image{
+  width: 40rpx;
+  height: 40rpx;
+  vertical-align: middle;
+  display: inline-block;
+}
+.dp_bb text{
+  font-size: 28rpx;
+  vertical-align: middle; 
+}
+.dp_b1{
+  display: flex;
+  justify-content: space-between;
+  margin-top: 40rpx;
+}
+.dp_b1 text{
+  font-size: 34rpx;
+  font-weight: 700;
+}
+.dp_b1 van-icon{
+  font-size: 24rpx;
+  color: #838383;
+}
+
+/* 喜欢这部电影的人也喜欢 */
+.xhzb{
+  margin-top: 80rpx;
+}
+.xhzb_t{
+  font-weight: 700;
+}
+#pf{
+  display: inline-block;
+  color: #818181;
+  font-size: 24rpx;
+  margin-left: 10rpx;
+}
+.xhzb .van-rate{
+  display: inline-block;
+}
+
+/* 影评 */
+.yp{
+  margin-top: 80rpx;
+}
+.yp_t{
+  font-weight: 700
+}
+.yp_t text{
+  font-size: 30rpx;
+  color: #818181;
+
+}
+.yp_b{
+  margin-top: 30rpx;
+  border-bottom: 1px solid #f2f2f2;
+  padding-bottom: 30rpx;
+  background: #fff ;
+  width:100%;
+  margin-left: -30rpx;
+  padding: 40rpx 30rpx;
+}
+.yp_bt{
+  display: flex;
+}
+.yp_bt image{
+  width: 70rpx;
+  height: 70rpx;
+  border-radius: 50%;
+}
+.yp_btr{
+  padding-left: 10rpx;
+  display: flex;
+}
+.yp_btrz{
+  font-size: 28rpx;
+  color: #818181;
+  padding-top: 10rpx;
+}
+.yp_btr .van-rate{
+  margin-left: 10rpx;
+  display: inline-block;
+}
+.yp_bt1{
+  font-weight: 700;
+  margin-top: 20rpx;
+}
+.yp_bc{
+  margin-top: 20rpx;
+  font-size: 32rpx;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 4;
+  overflow: hidden;
+
+}
+.yp_bb{
+  color: #828282;
+  font-size: 28rpx;
+  margin-top: 20rpx;
+}
+
+.yp_b1{
+  display: flex;
+  justify-content: space-between;
+  margin-top: 40rpx;
+}
+.yp_b1 text{
+  font-size: 34rpx;
+  font-weight: 700;
+}
+.yp_b1 van-icon{
+  font-size: 24rpx;
+  color: #838383;
+}

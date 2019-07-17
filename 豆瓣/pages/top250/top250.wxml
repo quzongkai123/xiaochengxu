@@ -1,0 +1,47 @@
+<!--pages/top250/top250.wxml-->
+<view class='tupian'>
+<image src='../../image/250.jpg'>
+</image>
+</view>
+<view class='wenzi'>
+<text>看过0部</text>
+<text>/共250部</text>
+<button class='denglu'>登录查看成就</button>
+</view>
+<view class='quanbu1' wx:for="{{subjects}}">
+<view class='biaozhi1'>
+<text>No.{{index+1}}</text>
+</view>
+<view class='tu1'>
+<image src="{{item.images.large}}"></image>
+</view>
+<view class='xuxian1' bindtap='bindLogs'>
+<view class='wen1'>
+<text>{{item.title}}</text>
+
+</view>
+<view class='xing1'>
+<van-rate
+  value="{{ value }}"
+  count="{{ 5 }}"
+  size="{{ 10 }}"
+  bind:change="onChange"/>
+  {{item.rating.average}}
+   </view>
+
+  <view class='wen2'>
+  <text>{{item.pubdates[1]}}/{{item.genres}}/{{item.directors[0].name}}/{{item.casts[0].name}}</text>
+ 
+</view>
+</view>
+
+<view class='kanguo'>
+<van-icon name="star-o" color='yellow' />
+</view>
+<view class='dd'>
+<text>看过</text>
+</view>
+<view class='dibu'>
+<text>{{item.title}}</text>
+</view>
+</view>

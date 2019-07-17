@@ -1,0 +1,8 @@
+<!--pages/xiangkan/xiangkan.wxml-->
+<view class='textborder'>
+<text>记录一下想看的理由</text>
+</view>
+<view class='anniu' bindtap='bindqueding'>
+<button>确定</button>
+
+</view>

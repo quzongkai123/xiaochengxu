@@ -1,0 +1,44 @@
+.one image{
+  margin-top:10px;
+  width:100%;
+  margin-left: 3.5%;
+  height: 300rpx;
+}
+
+.tupian image{
+
+   margin-top:15rpx;
+  height: 200rpx;
+  width: 28%;
+  float: left;
+  margin-left: 3.5%;
+ 
+}
+
+.wenzi{
+ 
+  border:1px solid #969696;
+  width: 63%;
+  height: 160rpx;
+  float: left;
+  margin-top: 30rpx;
+
+  border-style: solid solid solid none;
+  border-radius: 0 5px 5px 0;
+ 
+}
+.zhengge{
+ 
+  height:220rpx;
+  
+}
+
+
+.wenzi text{
+    margin-left:40rpx;
+  font-size: 30rpx;
+}
+.wenzi text:nth-child(2){
+  margin-left: 10rpx;
+  color:red;
+}

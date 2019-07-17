@@ -1,0 +1,30 @@
+/* pages/xiangkan/xiangkan.wxss */
+.textborder{
+  border: 1px solid rgb(194, 188, 188);
+  border-radius: 5px;
+  height:400rpx;
+  width: 93%;
+  margin-left:3%;
+  margin-top:30rpx;
+}
+.textborder text{
+  color:rgb(194, 188, 188);
+  font-size: 30rpx; 
+}
+.
+.textborder text{
+  color:rgb(194, 188, 188);
+  font-size: 20rpx; 
+}
+.anniu{
+  width: 93%;
+  margin-left: 3%;
+  margin-top:50rpx;
+
+}
+.anniu button{
+  background-color: rgb(20, 182, 20);
+  color:white;
+  height: 80rpx;
+
+}

@@ -1,0 +1,9 @@
+
+    <view class="upload_Item" wx:for="{{subjects_coming_soon}}">
+      
+      
+        <image class="upload_Item_img" src="{{item.images.large}}"></image>
+        <text>{{item.title}}</text>
+      
+    </view>
+  

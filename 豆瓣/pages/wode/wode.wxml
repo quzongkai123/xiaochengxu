@@ -1,0 +1,111 @@
+<!--pages/wode/wode.wxml-->
+<view class='header'>
+<image src='../../image/beijing.png'></image>
+<button class='denglu' bindtap='binddenglu'>
+登录
+</button>
+
+</view>
+<view class='wenzi'>
+<text>我的书影音</text>
+<text bindtap='binddenglu'>登录查看＞</text>
+</view>
+
+<view class='xian1'>
+<image src='../../image/guanying.png'></image>
+<view class='yingyin1'>
+<text>观影分析</text>
+<text style='color:blue'>0看过</text>
+</view>
+<view class='yingyin2'>
+<text>标记10部影片</text>
+<text>开启观影分析</text>
+</view>
+
+<button class='anniu1'>立即开启</button>
+<text class='dayu'>></text>
+</view>
+
+
+
+<view class='xian1'>
+<image src='../../image/shu.png'></image>
+<view class='yingyin1'>
+<text>读书分析</text>
+<text style='color:green'>0读过</text>
+</view>
+<view class='yingyin2'>
+<text>标记10部影片</text>
+<text>开启观影分析</text>
+</view>
+
+<button class='anniu1'>立即开启</button>
+<text class='dayu'>></text>
+</view>
+
+
+<view class='xian1'>
+<image src='../../image/yinyue.png'></image>
+<view class='yingyin1'>
+<text>音乐分析</text>
+<text style='color:orange'>0听过</text>
+</view>
+<view class='yingyin2'>
+<text>标记10部影片</text>
+<text>开启观影分析</text>
+</view>
+
+<button class='anniu1'>立即开启</button>
+<text class='dayu'>></text>
+</view>
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- <view class='biao1'>
+<view class='tubiao1'>
+<image src='../../image/shu.png'></image>
+</view>
+<view class='xian1'>
+<view class='yingyin1'>
+<text>读书分析</text>
+<text>0读过</text>
+</view>
+<view class='yingyin2'>
+<text>标记10本书</text>
+<text>开启读书分析</text>
+</view>
+
+<button class='anniu1'>立即开启</button>
+<text class='dayu'>></text>
+</view>
+</view>
+
+<view class='biao1'>
+<view class='tubiao1'>
+<image src='../../image/yinyue.png'></image>
+</view>
+<view class='xian1'>
+<view class='yingyin1'>
+<text>观音乐析</text>
+<text>0听过</text>
+</view>
+<view class='yingyin2'>
+<text>标记10张唱片</text>
+<text>开启音乐分析</text>
+</view>
+
+<button class='anniu1'>立即开启</button>
+<text class='dayu'>></text>
+</view>
+
+</view> -->
+

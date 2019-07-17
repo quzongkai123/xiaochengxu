@@ -1,0 +1,42 @@
+/* pages/kanguo/kanguo.wxss */
+.pingfen{
+  border: 1px solid red;
+  text-align: center;
+  margin-top:50rpx;
+}
+.pingfen text{
+  font-size: 20rpx;
+  color:rgb(194, 188, 188);
+}
+.xingxing{
+  text-align: center;
+}
+.textborder{
+  border: 1px solid rgb(194, 188, 188);
+  border-radius: 5px;
+  height:400rpx;
+  width: 93%;
+  margin-left:3%;
+  margin-top:30rpx;
+}
+.textborder text{
+  color:rgb(194, 188, 188);
+  font-size: 30rpx; 
+}
+.
+.textborder text{
+  color:rgb(194, 188, 188);
+  font-size: 30rpx; 
+}
+.anniu{
+  width: 93%;
+  margin-left: 3%;
+  margin-top:50rpx;
+
+}
+.anniu button{
+  background-color: rgb(20, 182, 20);
+  color:white;
+  height: 80rpx;
+
+}

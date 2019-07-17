@@ -1,0 +1,105 @@
+/* pages/top250/top250.wxss */
+.tupian image{
+ width: 100%;
+
+
+}
+.wenzi{
+
+  margin-top:30rpx;
+}
+.wenzi text{
+  
+  font-size: 30rpx
+}
+.wenzi text:nth-child(2){
+  color: gray;
+
+}
+.denglu{
+  float: right;
+  margin-right: 30rpx;
+  border-radius: 100rpx;
+  background-color:rgb(247, 96, 9);
+  width: 250rpx;
+  height: 70rpx;
+  font-size:30rpx;
+}
+.quanbu1{
+  /* border: 1px solid red; */
+  height: 400rpx;
+  margin-top:30rpx;
+}
+
+.biaozhi1{
+  margin-top: 60rpx;
+  height:50rpx;
+  width: 100rpx;
+  background-color:rgba(252, 145, 6, 0.945);
+  border-radius: 5rpx;
+  margin-left: 30rpx;
+  /* border: 1px solid red; */
+}
+.biaozhi1 text{
+
+  font-size: 35rpx;
+  color: rgb(83, 65, 31);
+}
+.tu1 image{
+  margin-top:30rpx;
+  margin-left: 20rpx;
+  float:left;
+  width: 200rpx;
+  height:280rpx;
+  /* border: 1px solid red; */
+}
+.wen1 text:nth-child(1){
+  /* border: 1px solid red; */
+  font-weight: bold;
+}
+
+.wen2{
+  width:600rpx;
+  font-size: 30rpx;
+  color: rgb(148, 145, 145);
+}
+.xing1{
+  /* border: 1px solid red; */
+  width: 600rpx;
+ 
+}
+.van-rate{
+  display: inline-block;
+}
+.xuxian1{
+  width: 600rpx;
+  height:300rpx;
+ border-right:1px dashed gray;
+}
+.kanguo {
+margin-left: 87%;
+margin-top: -30%;
+
+
+}
+.dd{
+  color: yellow;
+  margin-left: 85%;
+}
+.dibu{
+  background-color: rgba(245, 244, 244, 0.877);
+  height: 50rpx;
+  width: 90%;
+  border-radius: 5rpx;
+  margin-top:150rpx;
+  margin-left: 20rpx;
+}
+.dibu text{
+  font-size: 30rpx;
+  color:rgb(201, 194, 194);
+ 
+}
+
+
+
+

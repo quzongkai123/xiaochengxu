@@ -1,0 +1,44 @@
+<view class='one' bindtap='bindbangdan' >
+<image src='../../image/bangdan1.jpg'></image>
+</view>
+<view class='one' bindgtap='bindbangdan'>
+<image src='../../image/bangdan2.jpg'></image>
+</view>
+<view class='one' bindtap='bindbangdan'>
+<image src='../../image/bangdan3.jpg'></image>
+</view>
+<view class='zhengge' bindtap='bindtop250'>
+<view class='tupian' >
+<image src='../../image/douban250.jpg'></image>
+</view>
+<view class='wenzi'>
+<navigator  wx:for="{{subjects_coming_soon}}" wx:if="{{index<3}}">
+<text>{{index+1}}.{{item.title}}</text><text>{{item.rating.average}}分</text>
+</navigator> 
+</view>
+  </view>
+  <view class='zhengge'bindtap='bindtop250'>
+<view class='tupian'>
+<image src='../../image/douban250.jpg'></image>
+</view>
+<view class='wenzi'>
+<navigator  wx:for="{{subjects_coming_soon}}" wx:if="{{index<3}}">
+<text>{{index+1}}.{{item.title}}</text><text>{{item.rating.average}}分</text>
+</navigator> 
+</view>
+  </view>
+  <view class='zhengge'bindtap='bindtop250'>
+<view class='tupian'>
+<image src='../../image/douban250.jpg'></image>
+</view>
+<view class='wenzi'>
+<navigator  wx:for="{{subjects_coming_soon}}" wx:if="{{index<3}}">
+<text>{{index+1}}.{{item.title}}</text><text>{{item.rating.average}}分</text>
+</navigator> 
+</view>
+  </view>
+ 
+  
+  
+  
+

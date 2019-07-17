@@ -1,0 +1,68 @@
+/* pages/demo/demo.wxss */
+.search{
+  background: #67ba62;
+  width: 100%;
+  height:70rpx;
+  text-align: center;
+
+}
+.search input{
+  width: 93%;
+  height: 25px;
+  margin-left: 3%;
+  background-color: white;
+  border:1px solid wihie;
+  
+  
+}
+/* 影院热映 */
+.Cinema{
+  float: left;
+  width: 100%;
+  height: 60rpx;
+  /* background: #f90; */
+  margin: 20rpx auto 0;
+  font-family: "黑体";
+}
+.Cinema text:nth-child(1){
+  margin-left: 3%;
+  font-size: 36rpx;
+}
+.Cinema text:nth-child(2){
+  float: right;
+  color: #67ba62;
+  margin-right: 3%;
+  font-size: 33rpx;
+}
+/* 图片滑动 */
+.uploadWrap {
+  float: left;
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  height:200rpx;
+}
+.upload_Item {
+  float: left;
+  width: 200rpx;
+  height: 330rpx;
+  line-height: 40rpx;
+  text-align: center;
+}
+.upload_Item_img {
+  float: left;
+  width: 170rpx;
+  height: 250rpx;
+  margin: 0 0 0 20rpx;
+  border-radius: 10rpx;
+}
+.upload_Item text {
+  display: inline-block;
+  white-space:nowrap;
+  overflow:hidden;
+  text-overflow:ellipsis;
+  width: 160rpx;
+  font-size: 26rpx; 
+  text-align: left;
+}
+
